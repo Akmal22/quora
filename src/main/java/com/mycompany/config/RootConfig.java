@@ -6,7 +6,7 @@ import org.springframework.context.annotation.FilterType;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
-@ComponentScan(value = "com.mycompany.service",
+@ComponentScan(value = "com.mycompany",
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, value = EnableWebMvc.class))
 public class RootConfig {
 
