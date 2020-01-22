@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <java.source.version>11</java.source.version>
-        <java.target.version>11</java.target.version>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
     </properties>
     <groupId>org.example</groupId>
     <artifactId>quora</artifactId>
@@ -20,6 +20,19 @@
             <version>5.2.3.RELEASE</version>
         </dependency>
         <!-- spring dependencies -->
+
+        <!-- Jetty dependencies -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.4.25.v20191220</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlets</artifactId>
+            <version>9.4.25.v20191220</version>
+        </dependency>
+        <!-- Jetty dependencies -->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
