@@ -8,6 +8,7 @@ import java.util.List;
 @Data
 @Accessors(chain = true)
 public class Question {
-    private String text;
+    private String title;
+    private String description;
     private List<Answer> answers;
 }
